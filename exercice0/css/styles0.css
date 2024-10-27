@@ -1,36 +1,35 @@
-.grilles
-{
+.grilles {
     display: grid;
     margin: auto;
     padding-top: 2em;
     width: 30%;
 }
-#grille1
-{
+
+#grille1 {
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-#grille2
-{
+
+#grille2 {
     grid-template-columns: 1fr 2fr 3fr;
 }
-#grille3
-{
+
+#grille3 {
     grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: 2fr 1fr 1fr;
     grid-gap: 3px;
 }
-.cellule
-{
+
+.cellule {
     text-align: center;
     padding: 1em;
     border: 1px solid black;
 }
-div :nth-child(odd) 
-{
+
+div :nth-child(odd) {
     background-color: rgb(240, 166, 166);
 }
-div :nth-child(even)
-{
+
+div :nth-child(even) {
     background-color: rgb(162, 221, 170);
 }
